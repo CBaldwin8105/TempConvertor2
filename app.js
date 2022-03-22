@@ -4,7 +4,7 @@ alert(`Hello ${name}`)
 
 do {
     var temp = prompt('Do you want to convert from fahrenheit to celsius (type "F") or celsius to fahrenheit (type "C")?')
-} while ((temp != "F") && (temp != "f") && (temp != "fahrenheit") && (temp != "Fahrenheit") && (temp != "C") && (temp != "c") && (temp != "celsius") && (temp != "Celsius"))
+} while ((temp != "F") && (temp != "f") && (temp != "fahrenheit") && (temp != "Fahrenheit") && (temp != "C") && (temp != "c") && (temp != "celsius") && (temp != "Celsius") && (temp != "E") && (temp != "e") && (temp != "Exit") && (temp != "exit"))
 
 if ((temp == "F") || (temp == "f") || (temp == "fahrenheit") || (temp == "Fahrenheit")) {
     do {
@@ -19,5 +19,5 @@ if ((temp == "F") || (temp == "f") || (temp == "fahrenheit") || (temp == "Fahren
     var fahrenheit = (celsius * 9 / 5 + 32)
     alert(`${celsius}C° is ${fahrenheit}F°`)
 } else {
-    alert(`That is not one of the allowable characters. Ending Program.`)
+    alert(`Exiting Program.`)
 }
